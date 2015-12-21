@@ -1,0 +1,36 @@
+{
+  "name": "object-swap",
+  "version": "1.0.0",
+  "description": "Switch the object key and value.",
+  "main": "object-swap.js",
+  "scripts": {
+    "posttest": "npm run lint",
+    "prepublish": "npm prune && npm test",
+    "lint": "eslint .",
+    "test": "mocha object-swap.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjarneo/object-swap.git"
+  },
+  "homepage": "https://github.com/bjarneo/object-swap",
+  "bugs": {
+    "url": "https://github.com/bjarneo/object-swap/issues"
+  },
+  "keywords": [
+    "object",
+    "flip",
+    "swap",
+    "exchange",
+    "switch",
+    "key",
+    "value"
+  ],
+  "author": "Bjarne Oeverli",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "eslint-config-vgno": "^5.0.0",
+    "eslint": "^1.8.0"
+  }
+}
